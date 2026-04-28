@@ -3,9 +3,51 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LogMe - Chore Tracker</title>
-    <meta name="description" content="LogMe is a simple chore tracker. Log recurring tasks in one tap, see patterns, and get a nudge when something is due again." />
+    <title>LogMe — Chore Tracker App for iPhone</title>
+    <meta name="description" content="LogMe is a simple chore tracker for iPhone. Log recurring tasks in one tap, spot patterns, and get smart nudges when something is due — no account required." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://logme.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://logme.app/" />
+    <meta property="og:site_name" content="LogMe" />
+    <meta property="og:title" content="LogMe — Chore Tracker App for iPhone" />
+    <meta property="og:description" content="Log recurring chores and everyday tasks in one tap. See patterns, track intervals, and get a gentle nudge when something is due again." />
+    <meta property="og:image" content="https://logme.app/images/screenshot1.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LogMe — Chore Tracker App for iPhone" />
+    <meta name="twitter:description" content="Log recurring chores and everyday tasks in one tap. See patterns, track intervals, and get a gentle nudge when something is due again." />
+    <meta name="twitter:image" content="https://logme.app/images/screenshot1.png" />
+
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "LogMe",
+      "operatingSystem": "iOS",
+      "applicationCategory": "LifestyleApplication",
+      "description": "Log recurring chores and everyday tasks in one tap. See how often things happen, spot patterns, and get a gentle nudge when something is due again.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "downloadUrl": "https://apps.apple.com/app/id0000000000",
+      "url": "https://logme.app/",
+      "screenshot": [
+        "https://logme.app/images/screenshot1.png",
+        "https://logme.app/images/screenshot2.png",
+        "https://logme.app/images/screenshot3.png",
+        "https://logme.app/images/screenshot4.png"
+      ]
+    }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -75,6 +117,7 @@
       <!-- Features -->
       <section class="section" id="features">
         <div class="shell">
+          <h2 class="visually-hidden">Features</h2>
           <div class="feature-stack">
 
             <article class="feature-row">
@@ -84,7 +127,7 @@
                 <p>See all your events, when they were last done, and what's coming up — from a single screen.</p>
               </div>
               <div class="feature-media">
-                <img src="images/screenshot1.png" alt="LogMe home screen" />
+                <img src="images/screenshot1.png" alt="LogMe home screen showing all tracked events at a glance" loading="lazy" />
               </div>
             </article>
 
@@ -95,7 +138,7 @@
                 <p>Track intervals, view monthly trends, and know exactly when to expect something next.</p>
               </div>
               <div class="feature-media">
-                <img src="images/screenshot2.png" alt="LogMe stats screen" />
+                <img src="images/screenshot2.png" alt="LogMe stats screen with interval trends and next expected date" loading="lazy" />
               </div>
             </article>
 
@@ -106,7 +149,7 @@
                 <p>LogMe learns your rhythm and sends a quiet notification the day before you're likely due.</p>
               </div>
               <div class="feature-media">
-                <img src="images/screenshot3.png" alt="LogMe notifications" />
+                <img src="images/screenshot3.png" alt="LogMe smart reminder notification on iPhone" loading="lazy" />
               </div>
             </article>
 
@@ -117,7 +160,7 @@
                 <p>Name it, pick an emoji, toggle nudges. That's all it takes to start tracking anything.</p>
               </div>
               <div class="feature-media">
-                <img src="images/screenshot4.png" alt="LogMe create event" />
+                <img src="images/screenshot4.png" alt="LogMe create event screen with emoji picker" loading="lazy" />
               </div>
             </article>
 

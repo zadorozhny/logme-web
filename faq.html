@@ -3,9 +3,102 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FAQ — LogMe</title>
-    <meta name="description" content="Frequently asked questions about LogMe - Chore Tracker." />
+    <title>FAQ — LogMe Chore Tracker</title>
+    <meta name="description" content="Frequently asked questions about LogMe — how reminders work, what premium unlocks, how your data is stored, and more." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://logme.app/faq.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://logme.app/faq.html" />
+    <meta property="og:site_name" content="LogMe" />
+    <meta property="og:title" content="FAQ — LogMe Chore Tracker" />
+    <meta property="og:description" content="Frequently asked questions about LogMe — how reminders work, what premium unlocks, how your data is stored, and more." />
+    <meta property="og:image" content="https://logme.app/images/screenshot1.png" />
+
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is LogMe for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LogMe is for tracking recurring chores and everyday tasks with a single tap. It helps you remember what happened, review history, and understand patterns over time — so nothing slips through the cracks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I log an event?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On the home screen, tap the log button on an event card. LogMe records the timestamp immediately. You can also view and delete past logs from the event detail screen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do reminders work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you enable nudges for an event, LogMe uses your past logs to estimate when it's likely due again and sends a local notification one day before. The app needs at least two logs before it can make a useful prediction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why doesn't my event show a prediction yet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LogMe needs at least two logs to calculate an average interval. Once you have two or more entries, the next expected date and chart will appear automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my data stored online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. All event and log history is stored locally on your device using SQLite. The app does not require an account and does not upload your tracking data anywhere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does premium unlock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The free plan supports up to 3 events. Premium unlocks unlimited events so you can track as many chores and routines as you like. It's a single annual subscription billed through the App Store."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I restore a purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open Settings and tap 'Restore Purchase'. If your App Store account already has an active subscription, LogMe will unlock premium automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I cancel my subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Subscriptions are managed through your Apple ID. Go to Settings → Apple ID → Subscriptions on your device to cancel at any time. You'll keep premium access until the end of your current billing period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I contact support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email us at hellologme@gmail.com and we'll get back to you as soon as possible."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <header class="site-header">
