@@ -470,6 +470,45 @@ img { display: block; max-width: 100%; }
   font-size: 15px;
 }
 
+/* ── Use cases ── */
+
+.uses-section { background: var(--background); }
+
+.uses-title {
+  text-align: center;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.uses-copy {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.uses-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.uses-grid li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
 /* ── Tablet (≤ 860px) ── */
 
 @media (max-width: 860px) {
@@ -535,4 +574,5 @@ img { display: block; max-width: 100%; }
   .faq-item { padding: 18px; }
 
   .footer-inner { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .uses-grid { gap: 0.5rem; }
 }

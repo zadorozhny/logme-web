@@ -3,4 +3,4 @@ Allow: /
 Disallow: /privacy.html
 Disallow: /terms.html
 
-Sitemap: https://logme.app/sitemap.xml
+Sitemap: https://joinlogme.com/sitemap.xml
