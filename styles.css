@@ -183,9 +183,11 @@ img { display: block; max-width: 100%; }
 .hero-text { max-width: 520px; }
 
 .hero-kicker {
+  --pill-px: 14px;
   display: inline-block;
   margin-bottom: 20px;
-  padding: 6px 14px;
+  margin-left: calc(-1 * var(--pill-px));
+  padding: 6px var(--pill-px);
   border-radius: 999px;
   background: var(--primary-light);
   color: var(--primary);
@@ -271,9 +273,11 @@ img { display: block; max-width: 100%; }
 .feature-row.reverse .feature-media { order: 1; }
 
 .feature-tag {
+  --pill-px: 12px;
   display: inline-block;
   margin-bottom: 14px;
-  padding: 5px 12px;
+  margin-left: calc(-1 * var(--pill-px));
+  padding: 5px var(--pill-px);
   border-radius: 999px;
   background: var(--primary-light);
   color: var(--primary);
