@@ -559,7 +559,8 @@ img { display: block; max-width: 100%; }
   .feature-copy h3 { font-size: 24px; }
   .feature-copy p { font-size: 15px; }
   .feature-media img { width: min(100%, 200px); }
-  .feature-tag { margin-bottom: 10px; }
+  .hero-kicker { margin-left: 0; }
+  .feature-tag { margin-left: 0; margin-bottom: 10px; }
 
   .section { padding: 48px 0; }
   .feature-stack { gap: 48px; }
